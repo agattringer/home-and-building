@@ -1,0 +1,76 @@
+Movie 1:
+
+Scenarios and application domains
+Controlling lights and stereo over the internet
+remote access RC cars over internet
+Webcams of RC cars
+publicly controlling all this stuff
+
+Technologies
+Using internet to control home stuff
+
+Feasibility
+What might be doable?
+Controlling stuff over internet might be doable but might not be the best thing. 
+
+
+What not?
+RC car control might be a little hard to do  streaming over web might need a lot of upload power. 
+
+When?
+Controlling lights is already very common
+RC cars might be doable but are not really worth doing
+
+Weirdness/crazyness
+Controlling lights is already very common via internet 
+Controlling RC cars is pretty crazy
+
+Movie 2:
+
+Scenarios and application domains
+Security
+Safety
+Efficency
+Integration across multiple domains
+Dynamics
+Comfort and health
+Turning buildings into living organisms
+Smart city
+self driving cars
+Flexibility
+Personal navigation
+Energy management (distribution / storage)
+Emergency systems
+Configurability of rooms
+Bring your own device
+
+Technologies
+Futuristic UI
+Exchangable working spaces (like boxes)
+Dynamic routing for more security
+car storage in a rack
+Access control via open door concept
+Personalized assistenced for guiding through a building
+Evacuation of a building via lighting installations in emergency mode
+Detecting flows of people via sensors 
+Connect buildings into clusters via a backbone
+Body scanning
+Pressure sensitive floor
+Mobile devices
+Smart elevators
+Central spot of control - control everything from one point
+automated parking
+
+Feasibility
+What might be doable?
+All of this might be doable but stuff like this needs to really take privacy concerns into consideration
+automated parking already is reality
+
+What not?
+The UI is maybe not feasible today without using some kind of VR gear.
+
+When?
+Most of this will be future technology but things like lighting control is already used today.
+
+Weirdness/crazyness
+Seems like most of this stuff has also a lot of security concerns because there might be a lot of surveillence and privacy concerns using all this technology
