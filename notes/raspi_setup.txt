@@ -1,0 +1,34 @@
+First problem:
+the dd command took a very long time to complete and copy the image to the sd card
+I was able to copy the image on a machine of one of my collegues.
+
+Finding out IP addresses
+We connected our Pis one-by-one and did a scan after connected. Then we knew which IP matches which Raspberry.
+
+Connecting via SSH
+The user to connect is "root" not "pi". Password was "raspberry".
+For setting up SSH I followed this guide 
+(https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md)
+
+Then I did the setup of the static IP with opening /etc/network/interfaces
+and wrote this code into it:
+
+auto eth0
+#iface eth0 inet dhcp
+iface eth0 inet static
+address 192.168.3.109
+netmask 255.255.255.0
+gateway 192.168.3.1
+
+After that I followed this tutorial to install the wiringPi library.
+http://wiringpi.com/download-and-install/
+I had some problems because sudo wasn't installed, after doing so it worked out fine.
+Also make did not work (Solution: apt-get install build-essentials)
+
+Having the library installed I tried the example script "blink.c" (build it with make blink and then run it with ./blink)
+
+Now I'm out of disk space and I need to run raspi-config to get more space but I can't install it because I have no disk space. 
+Solved: used linux tool for partitioning
+
+
+
