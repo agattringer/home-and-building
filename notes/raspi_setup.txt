@@ -44,6 +44,11 @@ But it didn't work out for me, although it did for others.
 
 Then I changed the python script a bit to let the two LEDs blink without needing connection to an email client.
 
+To finish this up I tried the feedparser example which worked perfectly fine. Although I changed the mode from BOARD to BCM to get the right ports on Raspberry.
+I also changed the code to show a red LED when no new mails are here.
+
+
+
 
 
 
