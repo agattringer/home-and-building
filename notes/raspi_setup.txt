@@ -30,5 +30,20 @@ Having the library installed I tried the example script "blink.c" (build it with
 Now I'm out of disk space and I need to run raspi-config to get more space but I can't install it because I have no disk space. 
 Solved: used linux tool for partitioning
 
+Follow this tutorial
+https://learn.adafruit.com/raspberry-pi-e-mail-notifier-using-leds/overview
+
+Problems solved with:
+sudo apt-get install python-dev
+pip install RPi.GPIO
+
+with help of this I tried to resolve my other problems, 
+http://raspberrypi.stackexchange.com/questions/39448/raspberry-pi-email-notifier-python-script-not-working
+
+But it didn't work out for me, although it did for others.
+
+Then I changed the python script a bit to let the two LEDs blink without needing connection to an email client.
+
+
 
 
