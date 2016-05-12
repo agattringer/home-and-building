@@ -16,7 +16,7 @@ and wrote this code into it:
 auto eth0
 #iface eth0 inet dhcp
 iface eth0 inet static
-address 192.168.3.109
+address 192.168.3.20
 netmask 255.255.255.0
 gateway 192.168.3.1
 
