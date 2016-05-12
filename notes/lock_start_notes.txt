@@ -1,0 +1,5 @@
+We built up the circuit as proposed, pluggied in the lock into the power circuit and manually enabled and disable the GPIO port. We were able to open the lock.
+
+But trying to integrate an LED into the circuit was not possible as we expected.
+Not enough voltage I guess.
+We solved the problem with using a resistor for the LED and no resistor for the relais.
