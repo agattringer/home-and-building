@@ -1,0 +1,20 @@
+MQTT
+brew mosquitto on mac
+
+mqttfx.org
+apt-get install mosquitto
+apt-get install mosquitto-clients
+
+#subscribe
+mosquitto_sub -h localhost -t mqtt_test
+mosquitto_pub - h localhost -m "hello world" -t mqtt_test
+
+#library
+paho mqtt
+
+#switching lock wirelessly
+open client "MQTT.fx" on OSX and send the corresponding messages for opening and closing the lock
+to the right IP address
+
+#copying python script from raspberry to mac
+scp root@192.168.3.20:/root/mqttLock/wireless_lock.py /Users/alexandergtringer/home-and-building
