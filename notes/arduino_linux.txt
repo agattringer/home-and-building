@@ -1,0 +1,17 @@
+#working with linux and arduino
+"dmesg" for looking if the usb device is connected
+Device is connected to USB0
+
+#adding user to group
+useradd -G dialout username
+
+Installed Arduino using this tutorial
+http://ubuntuhandbook.org/index.php/2015/11/install-arduino-ide-1-6-6-ubuntu/
+
+#Problems
+installing vm ware tools in ubuntu -> restart virtual machine
+
+#Open example project in arduino
+PubSubExample
+Setup right wireless net -> connects
+

@@ -1,0 +1,20 @@
+#mounting raspi file system
+sshfs root@192.168.3.20:/etc /Users/alexandergattringer/Desktop/raspberry 
+
+#Setting up Openhab
+I used sshfs to mount the raspberry pie filesystem for easy drag and drop with the files
+
+#Blinking LED via OpenHAB
+I basically followed this tutorial https://mcuoneclipse.com/2015/12/24/blinky-led-with-openhab-on-raspberry-pi/
+
+#Setting up 2 LEDs
+The simple version with separately switching the LEDs works like a charm.
+However if a group switch is built, the switch works but there is currently no way to control the other switches with the "AllLEDs" switch.
+
+#timer
+Problem: UI doesn't refresh automatically
+create *.rule file at the rules folder
+import timer library
+when LED1 changed to ON change it off after five seconds
+
+#Using hardware button with Openhab
