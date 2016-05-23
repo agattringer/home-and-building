@@ -3,6 +3,7 @@ sshfs root@192.168.3.20:/etc /Users/alexandergattringer/Desktop/raspberry
 
 #Setting up Openhab
 I used sshfs to mount the raspberry pie filesystem for easy drag and drop with the files
+Openhab becomes available under the adress 192.168.3.20
 
 #Blinking LED via OpenHAB
 I basically followed this tutorial https://mcuoneclipse.com/2015/12/24/blinky-led-with-openhab-on-raspberry-pi/
@@ -18,3 +19,15 @@ import timer library
 when LED1 changed to ON change it off after five seconds
 
 #Using hardware button with Openhab
+Wire up button with this scheme https://www.arduino.cc/en/uploads/Tutorial/button.png
+As Konrad pointed out you need to exchange the two JARs with new ones (
+https://community.openhab.org/t/raspian-jessie-gpio-input/3448/38 - post from 14th Feb)
+
+Problems:
+-Correct wiring of Button (Pulldown, which direction to put it)
+
+Find scripts in "OpenHAB" folder
+Setup of LEDS and Button https://www.dropbox.com/s/nr7doapm365u3em/2016-05-23%2018.52.29.jpg?dl=0
+
+
+

@@ -1,0 +1,15 @@
+import org.openhab.io.gpio.*
+import org.openhab.binding.gpio.*
+import org.openhab.binding.exec.*
+
+rule "switch LED on if Button pressed"
+when
+    Item Button changed to OPEN
+then
+    sendCommand(ButtonLED, ON)
+end
+
+
+
+
+
