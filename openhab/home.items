@@ -1,0 +1,4 @@
+Switch LED1(AllLEDs){ gpio="pin:18" }
+Switch LED2(AllLEDs){ gpio="pin:23" }
+Group:Switch AllLEDs
+Contact Button { gpio="pin:24 debounce:10" }

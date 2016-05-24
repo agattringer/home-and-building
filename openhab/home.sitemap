@@ -1,0 +1,9 @@
+sitemap home label="Home"
+{
+ Frame label="Raspberry Pi GPIO"
+ {
+   Switch item=LED1
+   Switch item=LED2
+   Switch item=AllLEDs
+ }
+}

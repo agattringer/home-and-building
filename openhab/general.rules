@@ -1,0 +1,32 @@
+import org.openhab.model.script.actions.Timer
+import org.openhab.io.gpio.*
+import org.openhab.binding.gpio.*
+import org.openhab.binding.exec.*
+
+
+var Timer timer
+
+rule "Autodisable LED1"
+when
+	Item LED1 changed to ON
+then
+	
+	timer = createTimer(now.plusSeconds(3)) [|
+                sendCommand(LED1, OFF)
+                timer = null
+            ]
+end
+	
+rule "Button LED On"
+when
+    Item Button changed to OPEN
+then
+    sendCommand(LED1, ON)
+end
+
+rule "Button LED Off"
+when
+	Item Button changed to CLOSED
+then
+	sendCommand(LED1, OFF)
+end
