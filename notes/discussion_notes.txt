@@ -1,0 +1,84 @@
+# Discussion
+
+## Agenda
+
+* Introduction (Moderator speaking)
+    * Small discussion topic explanation
+    * Explain slido: Go to slido.com and login to #hab16
+    * Team Pro
+    * Team Con
+* Simpsons Video Part 1
+* Team Pro introduction (60-120 sec)
+* Simspons Video Part 2
+* Team Con introduction (60-120 sec)
+* Topic 1: **Comfort**
+    * Is it really easier to control the light with your smartphone in your bedroom while you are in the bedroom? 
+    * What to do if you cannot find your smartphone and it's dark in the flat?
+
+		* Pro
+			* 
+		
+		* Con
+			*
+	
+* Topic 2: **Costs**
+    * What are the savings per year compared with the initial costs?
+    * Why is Home Automation such much more efficient?
+    * What about the energy consumption of the controller devices?
+		
+		* Pro
+			*
+		
+		* Con
+			*
+		
+* Topic 3: **Software**
+    * Would you like to have everything from the same vendor ? 
+    * Should everbody be able to install this software ? Or is a technician sufficient ?
+    * What payment model would you like to have for this software ? Would you pay for an update?
+    * Home Automation as a Service in the Cloud ?
+		
+				
+		* Pro
+			*
+		
+		* Con
+			*
+		
+		
+* Topic 4: Interfaces
+    * Do you think additional standards a needed ?
+    * When entering the market: Would you create your own protocol or use an existing "standard" (if there is one)? Why?
+    * Would you keep your own protocol proprietary or make it open source to push it?
+    * Do you think that there will be THE HAB standard soon? (like TCP/IP or HTTP)
+		
+		* Pro
+			*
+		
+		* Con
+			*
+			
+* Topic 5: Security
+    * Quote "The more convinient the less secure". People always love convinience. How could we make people more aware of security? 
+    * Do you think home automation brings more security benefits or issues?
+	* Do you feel more secure with your smartphone as one key for everything or many physical keys? (Master Key vs Distributed Keys)
+	* What would you do if a hacker attacks your house and installs a virus in your air condition?
+
+		* Pro
+			*
+		
+		* Con
+			*
+	
+* Topic 6: Being supervised / Privacy
+    * Would you rather have more privacy or encanced features of your smart home?
+	* Would you use smart devices where you have no idea what happens with your personal data?
+	* How do you feel when you smart-home will start mothering ("bemuttern") you?
+
+	
+		* Pro
+			*
+		
+		* Con
+			*
+	

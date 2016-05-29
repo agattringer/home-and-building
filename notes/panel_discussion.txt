@@ -1,0 +1,28 @@
+# Panel discussion
+Comfort
+Control home with smartphone + access panel 
+Coffee machine maybe not the killer feature
+Setting up scenes -> not only controlling lights with a software switch
+
+Costs
+Con: it can be really expensive (2,300$ for doing it yourself) and doesn't really save that much
+You have to update often
+Pro:  You can run your home 10 years without update
+
+Software:
+Con: Updates can be expensive, everything doesn't work perfectly together
+Pro: Just choose one vendor, 
+
+Interfaces:
+Pro: Protocols like zigbee and zwave are wireless and comfortable to install
+
+Security 
+Con: 3 open source systems were compromised, Open source does not equal security
+Pro: everything can be compromised
+
+Privacy
+Pro: You do not have to have cameras everywhere, depends on what you wanna do.
+Con: Do you really want to be supervised everywhere? Who knows who has access to cameras, etc
+
+
+

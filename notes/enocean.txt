@@ -1,0 +1,31 @@
+#Stop serial console
+Follow this tutorial with method 1
+https://developer-blog.net/raspberry-pi-smart-home-mit-enocean-teil-3/
+
+But the file on the boot partition was edited via the card reader from windows / mac directly
+
+#add enocean jar to "addons"
+
+#setup enocean
+in the start.sh file
+-Dgnu.io.rxtx.SerialPorts=/dev/ttyAMA0  
+
+in openhab_default.cfg
+# EnOcean USB adapter serial port   
+enocean:serialPort=/dev/ttyAMA0  
+
+"./start.sh"
+Now we are able to see the switch in the console with the address
+
+After we found out the address we looked up the bindings and eep on this site.
+https://github.com/openhab/openhab/wiki/EnOcean-Binding
+
+After that we setup the Rocker Switch from enocean in the "items" file
+
+Tutorial for setting up enocean
+https://www.element14.com/community/community/design-challenges/forget-me-not/blog/2014/08/10/ip-post-5-tutorial-for-interfacing-openhab-with-enocean-pi
+
+Problem:
+-Dgnu.io.rxtx.SerialPorts=/dev/ttyAMA0 - this command needs to be added to the other "D" commands
+
+Setting up the temperature sensor works in the same way
